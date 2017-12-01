@@ -1,0 +1,173 @@
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700|Alegreya:400,700,400italic,700italic);
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+/* see https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+  font-family: "Alegreya";
+  font-size: 20px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+header#main-header {
+  background: url(https://alycakesblog.files.wordpress.com/2017/03/dsc_00842.jpg?w=840) center center;
+  padding: 5%;
+  line-height: 1.2;
+  color: white;
+  position: relative;
+  z-index: 0;
+}
+
+header#main-header::before {
+  background: white;
+  content: "";
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+header#main-header p.summary {
+  font-size: 30px;
+  text-shadow: 0 0 5px white;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Oswald;
+  font-weight: normal;
+}
+
+#main-header h1 {
+  margin: 0;
+  font-size: 90px;
+  text-shadow: 0 0 10px black;
+  letter-spacing: -3px;
+}
+
+
+article.bio {
+  padding: 20px;
+}
+
+article.bio::after {
+  border-bottom: 1px solid gray;
+}
+
+article.bio header {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+article.bio header div.topline {
+  margin-bottom: 20px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  border-bottom: 2px dashed gray;
+}
+
+article.bio header p.lead {
+  font-size: 26px;
+  font-style: italic;
+}
+
+article.bio header h1 {
+  font-size: 60px;
+  line-height: 1;
+  margin: 0;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+article.bio header div.dates {
+  font-size: 45px;
+  font-style: italic;
+  line-height: 1;
+  display: inline-block;
+  color: gray;
+}
+
+
+div#container {
+  overflow:auto;
+  background: #cc0000;
+}
+
+aside.sidebar {
+  width: 25%;
+  float: left;
+  padding: 50px;
+  font-size: 20px;
+}
+
+aside.sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+aside.sidebar span.dates {
+  font-style: italic;
+  opacity: 0.5;
+}
+
+aside.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+aside.sidebar a {
+  color: #D7BDE2;
+}
+
+aside.sidebar a:hover {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #D7BDE2;
+}
+
+main {
+  overflow: auto;
+}
+
+main section.articles {
+  width: 80%;
+  float: left;
+  background: white;
+}
+
+header img {
+  border-radius:100%;
+  width: 300px;
+  float: left;
+  margin: 20px;
+}
