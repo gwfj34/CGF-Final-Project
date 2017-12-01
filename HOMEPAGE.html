@@ -23,20 +23,29 @@
 
    
       <!-- Navigation bar here -->
-      <ul class="nav nav-pills nav-fill"
-  <li class="nav-item">
-    <a class="nav-link active" href="#">Home</a>
-  </li>
-  <!-- dropdown menu for eating out -->
-  <li class="nav-item">
-        <a class="nav-link" href="#">Eating</a>
-      </li>
-  <li class="nav-item">
-        <a class="nav-link" href="#">Study</a>
-      </li>
-  <li class="nav-item">
-        <a class="nav-link" href="#">Sport</a>
-      </li>
+     </head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</body>
   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Contact Us
         </a>
