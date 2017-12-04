@@ -1,0 +1,232 @@
+<html>
+
+<head>
+
+		<title>Sports </title>
+
+		<meta charset="UTF-8" />
+
+		<link rel="stylesheet" href="style.css" type="text/css" />
+
+	</head>
+  
+  <body>
+  
+		<div id="container">
+
+			<header id="main-header">
+
+				<h1>10 Fitness Tips</h1>
+
+			</header>
+      
+      <main>
+
+				<section class="articles">
+
+					<article class="bio" id="University Sport">
+
+						<header>
+
+							<div class="topline">
+
+								<h1>1. University Sport</h1>
+
+							<img width="600" class="portrait" src="https://upload.wikimedia.org/wikipedia/en/a/ae/Team_durham.JPG">
+
+							<p class="lead">
+
+							Whether you are national level or want to burn of those college potatoes getting involved in university sport is enormously worthwhile.  You can either trial for Team Durham or if you want something slightly more casual, get involved at college level. There are 50 sports on offer at Durham, you’re bound to find something!</p>
+							
+              </div>
+
+						</header>
+
+					</article>
+          
+					<article class="bio" id="Join a gym">
+
+						<header>
+
+							<div class="topline">
+
+								<h1>2. Join a Gym</h1>
+
+							<img width="600" class="portrait" src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Berkeley_Heights_NJ_exercise_room.jpg">
+
+							<p class="lead">
+
+							Durham is well equipped with gyms. College gyms are often small and cramped but convenient and cheap; Maiden Castle is the home of Team Durham and a short walk from hill colleges; Result Fitness on North Road is a good option for the Viaduct. </p>
+							
+              </div>
+
+						</header>
+
+					</article>
+          
+          
+					<article class="bio" id="Swim">
+
+						<header>
+
+							<div class="topline">
+
+								<h1>3. Swim</h1>
+
+							<img width="600" class="portrait" src="http://s0.geograph.org.uk/geophotos/02/16/64/2166468_384fdc35.jpg">
+
+							<p class="lead">
+
+							Swim at Freemans Quay: Public swim sessions throughout the week and at the weekend. </p>
+							
+              </div>
+
+						</header>
+
+					</article>
+          
+          <article class="bio" id="Strava">
+
+						<header>
+
+							<div class="topline">
+
+								<h1>4. Download Strava</h1>
+
+							<img width="600" class="portrait" src="https://runblogger.com/images/2014/08/Strava.jpg">
+
+							<p class="lead">
+
+							 This is a great way to track your progress both personally and with others, find new routes, and achieve a PB. </p>
+							
+              </div>
+
+						</header>
+
+					</article>
+          
+           <article class="bio" id="HIIT workout">
+
+						<header>
+
+							<div class="topline">
+
+								<h1>5. DSU steps HIIT workout</h1>
+
+							<img width="600" class="portrait" src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Dunelm-view.jpg">
+
+							<p class="lead">
+
+							 Complete reps of the 88 steps underneath the Durham Student Union bridge and you’ll be fighting fit in no time! </p>
+							
+              </div>
+
+						</header>
+
+					</article>
+          
+          <article class="bio" id="Try Something New">
+
+						<header>
+
+							<div class="topline">
+
+								<h1>6. Try Something New</h1>
+
+							<img width="600" class="portrait" src="https://upload.wikimedia.org/wikipedia/commons/a/a3/WMS_Indoor_Climbing_Wall.jpg">
+
+							<p class="lead">
+
+							 There are so many new sports to try while at university. Did you know that there is a climbing wall less than ten miles from the centre of Durham, a boat house filled with canoes to try out and the opportunity to become a qualified scuba diver with Durham City Scuba?</p>
+							
+              </div>
+
+						</header>
+
+					</article>
+          
+          <article class="bio" id="Compete in a Local Race">
+
+						<header>
+
+							<div class="topline">
+
+								<h1>7. Compete in a Local Race</h1>
+
+							<img width="600" class="portrait" src="https://c2.staticflickr.com/2/1490/25728332446_9e14607736_b.jpg">
+
+							<p class="lead">
+
+							 Whether you sign up for the Durham Coast Half-Marathon in June or participate in Park Run leaving from Maiden Castle, there is some stunning scenery to be enjoyed around this area along with plenty of enthusiastic fellow competitors.</p>
+							
+              </div>
+
+						</header>
+
+					</article>
+          
+          <article class="bio" id="Local Sports">
+
+						<header>
+
+							<div class="topline">
+
+								<h1>8. Participate in Local Teams</h1>
+
+							<img width="600" class="portrait" src="https://www.teamlink.co.uk/sites/default/files/Durham%20Cricket%20Club%20logo.png">
+
+							<p class="lead">
+
+							<p>8.  Local sports: If the university sport scene isn’t for you then there are plenty of options to mingle with the locals and join a Durham City club. There is a Durham City Cricket Club, Amateur Rowing Club, Rugby Club, Golf Club, Indoor Bowling Club to name but a few. </p>
+              </div>
+
+						</header>
+
+					</article>
+          
+          <article class="bio" id="Bike">
+
+						<header>
+
+							<div class="topline">
+
+								<h1>9. Get a Bike</h1>
+
+							<img width="600" class="portrait" src="http://www.bikesdirect.com/products/windsor/images/will_2100.jpg">
+
+							<p class="lead">
+              
+              Enjoy the stunning scenery of Country Durham and further on two wheels. A bike is a great way to get out of Durham quickly! </p></p>
+             
+             </div>
+
+						</header>
+
+					</article>
+          
+          <article class="bio" id="Step by Step">
+
+						<header>
+
+							<div class="topline">
+
+								<h1>10. Take it Step by Step</h1>
+
+							<img width="600" class="portrait" src="https://i.vimeocdn.com/video/646956592_1280x720.jpg">
+
+							<p class="lead">
+              
+               Try and get out everyday. Every little bit makes the difference!</p>
+             
+             </div>
+
+						</header>
+
+					</article>
+          
+       </div>
+       
+    </body>
+    
+ </html>
+           
