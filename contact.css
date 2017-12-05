@@ -1,0 +1,104 @@
+<html>
+<style>
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700|Alegreya:400,700,400italic,700italic);
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+/* see https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+  font-family: "Alegreya";
+  font-size: 20px;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  .topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #D7BDE2;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+}
+
+header#main-header {
+  background: url(https://www.yorkshireenvelopes.com/wp-content/uploads/2015/07/coloured_envelopes-4.png) center center;
+  padding: 5%;
+  line-height: 1.2;
+  color: white;
+  position: relative;
+  z-index: 0;
+}
+
+header#main-header::before {
+  background: white;
+  content: "";
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+header#main-header p.summary {
+  font-size: 30px;
+  text-shadow: 0 0 5px white;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: Oswald;
+  font-weight: normal;
+}
+
+#main-header h1 {
+  margin: 0;
+  font-size: 90px;
+  text-shadow: 0 0 10px black;
+  letter-spacing: -3px;
+}
+title.bio {
+  padding: 20px;
+}
+
+input#email{
+  font-family:Oswald;
+  font-weight:normal;
+}
+ button.btn btn-primary{
+  font-family:Oswald;
+  font-weight:normal;
+ }
+}
+button, input, select, textarea {
+  font-family : inherit;
+  font-size   : 100%;
+}
