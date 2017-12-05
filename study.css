@@ -1,5 +1,4 @@
-<html>
-<style>
+
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700|Alegreya:400,700,400italic,700italic);
 
 /* apply a natural box layout model to all elements, but allowing components to change */
@@ -145,5 +144,4 @@ header img {
   float: left;
   margin: 20px;
 }
-</style>
-</html>
+
